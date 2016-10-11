@@ -31,19 +31,19 @@
     top: 0;
     right: 3.5rem;
     content: "Loading...";
-    font-family: "Helvetica Neue", sans-serif;
+/*    font-family: "Helvetica Neue", sans-serif; */
     font-weight: 100;
     font-size: 1rem;
     line-height: 1;
     text-align: right;
-    color: rgba(255, 255, 255, 0.19999999999999996);
-
+    color: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (min-width: 40.05556em) {
     .pace .pace-progress:before {
         font-size: 2rem;
         right: 5rem;
+        color: rgba(255, 255, 255, 0.19999999999999996);
     }
 }
 
@@ -53,16 +53,17 @@
     top: 0;
     right: .5rem;
     content: attr(data-progress-text);
-    font-family: "Helvetica Neue", sans-serif;
+/*    font-family: "Helvetica Neue", sans-serif; */
     font-weight: 100;
     font-size: 1rem;
     line-height: 1;
     text-align: right;
-    color: rgba(255, 255, 255, 0.19999999999999996);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (min-width: 40.05556em) {
     .pace .pace-progress:after {
         font-size: 2rem;
+        color: rgba(255, 255, 255, 0.19999999999999996);
     }
 }
